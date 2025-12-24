@@ -90,11 +90,14 @@ hindu-scripture-chatbot/
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Python 3.8+
-- OpenAI API key
-- Supabase account with vector database setup
-- HuggingFace token (for embedding model)
+## Prerequisites
+- **Python 3.8+**
+- **OpenAI API Key** ([Get one here](https://platform.openai.com/api-keys))
+- **HuggingFace API Token** ([Get free token here](https://huggingface.co/settings/tokens))
+- Supabase credentials (provided in `.env.example`)
+
+### Why HuggingFace Token?
+This project uses HuggingFace Inference API to generate embeddings for user queries. This keeps the deployment lightweight (no large model downloads needed).
 
 ### Installation
 
